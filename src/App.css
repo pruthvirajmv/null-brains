@@ -1,38 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Khula&display=swap");
+
+:root {
+   --primary: #4f46e5;
+   --white: #efefef;
+   --grey: #535c6a;
+}
+
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+button {
+   cursor: pointer;
+}
+
 .App {
-  text-align: center;
+   text-align: center;
+   font-family: "Khula", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bttn-primary {
+   background-color: var(--primary);
+   border-radius: 5rem;
+   border-color: var(--primary);
+   border-style: solid;
+   color: var(--white);
+   padding: 0.2rem 1rem;
+   font: inherit;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bttn-secondary {
+   background-color: transparent;
+   border-color: transparent;
+   border-style: solid;
+   color: inherit;
+   font: inherit;
 }
