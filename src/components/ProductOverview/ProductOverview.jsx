@@ -6,7 +6,7 @@ import bullet from "./assets/bullet.png";
 
 export function ProductOverview() {
    return (
-      <>
+      <div className="productOverview-container">
          <section className="productOverview-section">
             <div>
                <img
@@ -68,6 +68,6 @@ export function ProductOverview() {
                />
             </div>
          </section>
-      </>
+      </div>
    );
 }
