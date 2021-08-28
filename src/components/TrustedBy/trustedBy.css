@@ -1,0 +1,26 @@
+.trustedBy-container {
+   margin: 5rem 1rem;
+}
+.trustedBy-container > p {
+   font-weight: 650;
+}
+
+.logo-container {
+   display: flex;
+   column-gap: 3rem;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.logo {
+   height: 5rem;
+   width: 8rem;
+   object-fit: scale-down;
+}
+
+@media screen and (min-width: 786px) {
+   .trustedBy-container {
+      margin-inline: 12rem;
+   }
+}

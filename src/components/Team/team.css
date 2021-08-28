@@ -1,0 +1,83 @@
+.team-component {
+   position: relative;
+}
+.team-container {
+   text-align: left;
+   position: relative;
+   width: 70%;
+   margin: auto;
+   margin-block: 5rem;
+}
+
+.team-head {
+   position: relative;
+}
+
+.team-head > p {
+   color: #70a3f8;
+}
+
+.team-head-tagline {
+   display: flex;
+   flex-direction: column;
+   font-size: 3.5rem;
+   font-weight: 600;
+   margin-block: 2rem;
+}
+
+.team-head-tagline p {
+   margin-block: -1rem;
+}
+
+.team-header-mark {
+   position: absolute;
+   background-color: #f5f9ff;
+   top: 0;
+   right: 0rem;
+   height: 10rem;
+   width: 35rem;
+   border-radius: 5rem 0 0 5rem;
+}
+
+.members-container {
+   display: flex;
+   gap: 1rem 2rem;
+   flex-wrap: wrap;
+}
+
+.member-card {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-weight: 550;
+}
+
+.member-profile {
+   display: flex;
+   height: 14rem;
+   width: 14rem;
+   border-radius: 50% 0% 50% 50%;
+   margin-bottom: 0.6rem;
+}
+
+.member-profile img {
+   height: 12.2rem;
+   width: 12.2rem;
+   margin: auto;
+}
+
+.member-role {
+   color: #5082ef;
+}
+
+.member-handles {
+   display: flex;
+   column-gap: 0.8rem;
+}
+
+.member-handles a {
+   text-decoration: none;
+   color: #d1d5db;
+   font-size: 1.4rem;
+}

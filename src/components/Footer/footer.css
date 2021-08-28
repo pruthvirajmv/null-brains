@@ -1,0 +1,26 @@
+.app-footer {
+   display: flex;
+   flex-direction: column;
+   row-gap: 1.5rem;
+   margin-top: 10rem;
+   margin-bottom: 3rem;
+   color: var(--grey);
+   font-weight: 510;
+   opacity: 0.8;
+}
+
+.app-footer ul {
+   list-style: none;
+   display: flex;
+   margin: auto;
+   flex-wrap: wrap;
+}
+
+.footer-nav-list {
+   justify-content: center;
+   column-gap: 2.5rem;
+}
+
+.social-handles-list {
+   column-gap: 1.5rem;
+}

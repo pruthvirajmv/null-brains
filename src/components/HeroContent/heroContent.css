@@ -1,6 +1,63 @@
-@import url("https://fonts.googleapis.com/css2?family=Khula:wght@800&display=swap");
+.heroContent-container {
+   margin-block: 5rem;
+   display: flex;
+   flex-direction: column;
+   row-gap: 1.5rem;
+}
 
-.hero-text {
-   font-size: 3.5rem;
+.heroContent-head {
+   display: flex;
+   flex-direction: column;
+   font-size: 2.2rem;
    font-weight: 900;
+}
+
+.heroContent-head-text {
+   margin-bottom: -1rem;
+}
+
+.heroContent-tagline {
+   font-size: 0.8rem;
+   font-weight: 510;
+}
+
+.heroContent-tagline-text {
+   margin-bottom: -0.2rem;
+}
+
+.heroContent-container .bttn-primary {
+   font-weight: 600;
+   padding: 0.5rem 1.5rem;
+   position: relative;
+}
+
+.heroContent-actions .text-primary {
+   margin-top: 0.8rem;
+   font-size: 0.8rem;
+   position: relative;
+}
+
+.heroContent-actions .badge {
+   background-color: #34d399;
+   font-size: 0.7rem;
+   font-weight: initial;
+   color: var(--white);
+   border-radius: 1rem;
+   padding: 0.2rem 0.4rem;
+   right: -1.5rem;
+   top: -1rem;
+}
+
+@media screen and (min-width: 786px) {
+   .heroContent-head {
+      font-size: 4rem;
+   }
+
+   .heroContent-head-text {
+      margin-bottom: -2rem;
+   }
+
+   .heroContent-tagline {
+      font-size: 1rem;
+   }
 }
