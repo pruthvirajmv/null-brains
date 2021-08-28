@@ -10,7 +10,7 @@ export function NavBar() {
             <div>Blog</div>
             <div>Contact</div>
             <div>
-               <i class="fas fa-search"></i>
+               <i className="fas fa-search"></i>
             </div>
          </div>
          <div className="nav-signing">

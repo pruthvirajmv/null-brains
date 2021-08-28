@@ -11,7 +11,7 @@ export function Features() {
          </header>
          <section className="features-container">
             {featuresList.map((feature) => (
-               <div className="feature-card">
+               <div key={feature.name} className="feature-card">
                   <div className="feature-card-icon">
                      <img src={feature.icon} alt="feature" />
                   </div>

@@ -17,7 +17,7 @@ export function Team() {
 
             <section className="members-container">
                {teamList.map((member) => (
-                  <div className="member-card">
+                  <div key={member.name} className="member-card">
                      <div
                         className="member-profile"
                         style={{ backgroundColor: member.backgroundColor }}>
@@ -27,10 +27,10 @@ export function Team() {
                      <div className="member-role "> {member.role} </div>
                      <div className="member-handles">
                         <a href={member.twitter}>
-                           <i class="fab fa-twitter"></i>
+                           <i className="fab fa-twitter"></i>
                         </a>
                         <a href={member.github}>
-                           <i class="fab fa-github"></i>
+                           <i className="fab fa-github"></i>
                         </a>
                      </div>
                   </div>
